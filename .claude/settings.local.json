@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/audi/.claude/**)",
+      "Read(//Users/audi/scripts/**)",
+      "Read(//private/tmp/claude-tmux-status/**)",
+      "Read(//private/tmp/cmux/**)",
+      "Read(//private/tmp/**)",
+      "Bash(curl -s https://raw.githubusercontent.com/manaflow-ai/cmux/main/Sources/TabManager.swift)",
+      "Bash(curl -s https://raw.githubusercontent.com/manaflow-ai/cmux/main/Sources/Workspace.swift)",
+      "Bash(curl -s https://raw.githubusercontent.com/manaflow-ai/cmux/main/Package.swift)",
+      "Bash(curl -s https://raw.githubusercontent.com/manaflow-ai/cmux/main/cmux-Bridging-Header.h)",
+      "Bash(curl -s https://api.github.com/repos/manaflow-ai/cmux/contents/CLI)",
+      "Bash(curl -s https://raw.githubusercontent.com/manaflow-ai/cmux/main/Sources/ContentView.swift)",
+      "Bash(curl -s \"https://raw.githubusercontent.com/manaflow-ai/cmux/main/Sources/ContentView.swift\")",
+      "Bash(curl -s \"https://raw.githubusercontent.com/manaflow-ai/cmux/main/Sources/TabManager.swift\")",
+      "Bash(tmux list-panes:*)"
+    ]
+  }
+}
